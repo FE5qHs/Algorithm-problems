@@ -1,5 +1,5 @@
 # algorithms
-Stores various algorithm exercises i did
+Stores various algorithm exercises i did.
 ---
 |No.|Name|Source|Language|
 |:-|:-|:-|:-|
