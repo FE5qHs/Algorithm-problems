@@ -6,7 +6,7 @@
 
 /*
 *
-* Function: Count the number of occurrences of a word in a file,ignores case
+* Function: Count the number of occurrences of words in a file,ignores case
 * Parameters: A map stores word as key,number of occurrences as value and path of file stored using string
 * Modified: 2018/5/20
 *
