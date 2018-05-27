@@ -51,7 +51,7 @@ vector<int> twoSum(vector<int>& nums, int target)
 * Space complexity:
 *           O(n)
 */
-const vector<int>& twoSum(const vector<int>& nums, int target)
+vector<int> twoSum(const vector<int>& nums, int target)
 {
     vector<int>result;
     unordered_multimap<int, int>temp;
