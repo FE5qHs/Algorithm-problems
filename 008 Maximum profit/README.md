@@ -1,0 +1,2 @@
+# Maximum profit
+Suppose you can predict the price of a certain stock in the next 100 seconds (1 price per second), and you are allowed to trade only 2 times (buy once, sell once, and buy first and then sell), and you can hold up to k shares at the same time. Please write a program calculates the maximum profit. Requirements: space complexity O(1), time complexity O(N).
