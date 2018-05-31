@@ -2,7 +2,7 @@
 Stores various algorithm exercises i did.
 ---
 |No.|Name|Source|
-|:-|:-|:-|:-|
+|:-|:-|:-|
 |001|Occurrences of words|Interview|
 |002|Route in matrix|Aim at offer|
 |003|Two sum|Leetcode|
