@@ -122,7 +122,7 @@ void print_bt_in(BinaryTreeNode * BTN)
 int main()
 {
     //So many problems in this program,memory leak,inappropriate dealing with empty node...
-    //should be improve when review
+    //should be improved when review
     int pre[] = { 1,2,3,4,5,6,7,8,10,9,11 };
     int in[] = { 4,3,2,5,6,1,8,10,7,9,11 };
     BinaryTreeNode * BTN = nullptr;
