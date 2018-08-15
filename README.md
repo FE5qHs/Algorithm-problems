@@ -11,4 +11,5 @@ Stores various algorithm exercises i did.
 |006|All permutations|Interview|
 |007|Build binary tree|Aiming at offer|
 |008|Best Time to Buy and Sell Stock|Leetcode|
-|009|range of movement of robot|Aiming at offer|
+|009|Range of movement of robot|Aiming at offer|
+|010|Print natural number|Aiming at offer|
