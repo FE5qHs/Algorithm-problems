@@ -14,3 +14,4 @@ Stores various algorithm exercises i did.
 |009|Range of movement of robot|Aiming at offer|C++|
 |010|Print natural number|Aiming at offer|C++|
 |011|Delete duplications|Aiming at offer|Python|
+|012|Learning lisp|Homework|Common Lisp|
