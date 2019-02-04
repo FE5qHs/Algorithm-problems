@@ -1,6 +1,3 @@
-;name:Zhe Chen
-;student number:2017123990
-
 ;Write a function (NumberOfPrimes <list>) which counts
 ;the number of primes in a (possibly nested) list.
 (number-of-primes '(((1)(2))(5)(3)((8)3)))
