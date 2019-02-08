@@ -7,7 +7,7 @@ Stores various algorithm exercises i did.
 |002|Route in matrix|Aiming at offer|C++|
 |003|Two sum|Leetcode|C++|
 |004|Diagonal Traverse|Leetcode|C++|
-|005|All permutations|Interview|C++|
+|005|All permutations|Interview|C++,Java|
 |006|Build binary tree|Aiming at offer|C++|
 |007|Best Time to Buy and Sell Stock|Leetcode|C++|
 |008|Range of movement of robot|Aiming at offer|C++|
