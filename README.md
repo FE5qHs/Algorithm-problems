@@ -15,3 +15,4 @@ Stores various algorithm exercises i did.
 |010|Delete duplications|Aiming at offer|Python|
 |011|Learning lisp|Homework|Common Lisp|
 |012|The world cup|Code M|Java|
+|013|String that represents numeric value|Aiming at offer|Java|
