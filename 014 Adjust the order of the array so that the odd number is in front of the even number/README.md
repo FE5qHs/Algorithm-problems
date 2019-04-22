@@ -1,2 +1,2 @@
 # Adjust the order of the array so that the odd number is in front of the even number
-[Adjust the order of the array so that the odd number is in front of the even number](hhttps://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+[Adjust the order of the array so that the odd number is in front of the even number](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
