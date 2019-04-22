@@ -16,4 +16,4 @@ Stores various algorithm exercises I did.
 |011|Learning lisp|Homework|Common Lisp|
 |012|The world cup|Code M|Java|
 |013|String that represents numeric value|Aiming at offer|Java|
-|014|Adjust the order of the array so that the odd number is in front of the even number|Java|
+|014|Adjust the order of the array so that the odd number is in front of the even number|Aiming at offer|Java|
