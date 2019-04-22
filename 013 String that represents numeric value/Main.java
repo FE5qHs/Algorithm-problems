@@ -7,7 +7,7 @@ public class Main {
         System.out.println(isNumeric(test));
     }
 
-    private static boolean isNumeric(char[] str) {
+    public static boolean isNumeric(char[] str) {
         if ('+' == str[0] || '-' == str[0]) {
             return core(str, 0, statusType.minusOrPlus, false, false);
         } else if ('0' < str[0] && str[0] < '9') {
@@ -23,7 +23,8 @@ public class Main {
         minusOrPlus, number, e, point
     }
 
-    private static boolean core(char[] str, int index, statusType type, boolean existPoint, boolean existE) {
+    private static boolean core(char[] str, int index,
+                                statusType type, boolean existPoint, boolean existE) {
         if (str.length == index) {
             return false;
         }
