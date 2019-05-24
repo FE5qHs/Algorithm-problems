@@ -17,3 +17,5 @@ Stores various algorithm exercises I did.
 |012|The world cup|Code M|Java|
 |013|String that represents numeric value|Aiming at offer|Java|
 |014|Adjust the order of the array so that the odd number is in front of the even number|Aiming at offer|Java|
+|015|The reciprocal K node in the list|Aiming at offer|Java|
+|016|The entry node of the ring in the list|Aiming at offer|Java|
