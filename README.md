@@ -16,7 +16,7 @@ Stores various algorithm exercises I did.
 |011|Learning lisp|Homework|Common Lisp|
 |012|The world cup|Code M|Java|
 |013|String that represents numeric value|Aim at offer|Java|
-|014|Adjust the order of the array so that the odd number is in front of the even number|Aim at offer|Java|
+|014|Adjust order of array|Aim at offer|Java|
 |015|The reciprocal K node in the linked list|Aim at offer|Java|
 |016|The entry node of the ring in the linked list|Aim at offer|Java|
 |017|Reverse linked list|Aim at offer|Java|
