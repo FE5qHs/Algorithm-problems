@@ -13,7 +13,7 @@ Stores various algorithm exercises I did.
 |008|Range of movement of robot|Aim at offer|C++|
 |009|Print natural number|Aim at offer|C++|
 |010|Delete duplications|Aim at offer|Python|
-|011|Learning lisp|Homework|Common Lisp|
+|011|Learning lisp|Course|Common Lisp|
 |012|The world cup|Code M|Java|
 |013|String that represents numeric value|Aim at offer|Java|
 |014|Adjust order of array|Aim at offer|Java|
@@ -22,3 +22,4 @@ Stores various algorithm exercises I did.
 |017|Reverse linked list|Aim at offer|Java|
 |018|Merge two sorted linked lists|Aim at offer|Java|
 |019|Substructure of the tree|Aim at offer|Java|
+|020|Mirror image of binary tree|Aim at offer|C++|

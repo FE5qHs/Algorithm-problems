@@ -1,0 +1,2 @@
+# Mirror image of binary tree
+[Mirror image of binary tree](https://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?tpId=13&tqId=11171&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
