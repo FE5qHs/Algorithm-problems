@@ -23,3 +23,4 @@ Stores various algorithm exercises I did.
 |018|Merge two sorted linked lists|Aim at offer|Java|
 |019|Substructure of the tree|Aim at offer|Java|
 |020|Mirror image of binary tree|Aim at offer|C++|
+|021|Symmetric Binary Trees|Aim at offer|C++|
