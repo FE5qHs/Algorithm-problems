@@ -1,6 +1,7 @@
-# Algorithms
-Stores various algorithm exercises I did.
----
+# Problems
+
+Stores various problems i solved.
+
 |No.|Name|Source|Language
 |:-|:-|:-|:-|
 |001|Occurrences of words|Interview|C++|
@@ -24,4 +25,4 @@ Stores various algorithm exercises I did.
 |019|Substructure of the tree|Aim at offer|Java|
 |020|Mirror image of binary tree|Aim at offer|C++|
 |021|Symmetric Binary Trees|Aim at offer|C++|
-|021|Clockwise printing matrix|Aim at offer|C++|
+|022|Clockwise printing matrix|Aim at offer|C++|
