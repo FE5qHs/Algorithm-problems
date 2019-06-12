@@ -1,2 +1,0 @@
-# Merge two sorted linked lists
-[Merge two sorted linked lists](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
