@@ -1,1 +1,1 @@
-Leetcode is an OJ platform which provides a huge number of various algorithmic problems, you can find problems are try them by yourself in [here](https://leetcode.com/problemset/all/).
+[Leetcode](https://leetcode.com/problemset/all/).
