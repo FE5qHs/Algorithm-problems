@@ -1,33 +1,25 @@
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        ArrayList<ArrayList<String>> m = new ArrayList<>();
-        if (strs.length > 0) {
-            for (int i = 0; i < strs[0].length(); ++i) {
-                ArrayList<String> newArr = new ArrayList<>(Arrays.asList(Character.toString(strs[0].charAt(i)), "1"));
-                m.add(newArr);
+        if (0 == strs.length) {
+            return "";
+        } else if (1 == strs.length) {
+            return strs[0];
+        }
+        StringBuilder result = new StringBuilder();
+        int shortest = strs[0].length();
+        for (int i = 1; i < strs.length; ++i) {
+            if (strs[i].length() < shortest) {
+                shortest = strs[i].length();
             }
-            
-            for (int i = 1; i < strs.length; ++i) {
-                for (int j = 0; j < m.size(); ++j) {
-                    if (j == strs[i].length()) {
-                        break;
-                    }
-                    if (Character.toString(strs[i].charAt(j)).equals(m.get(j).get(0))) {
-                        m.get(j).set(1, Integer.toString(Integer.parseInt(m.get(j).get(1)) + 1));
-                    } else {
-                        break;
-                    }
+        }
+        for (int i = 0; i < shortest; ++i) {
+            for (int j = 0; j < strs.length; ++j) {
+                if (strs[0].charAt(i) != strs[j].charAt(i)) {
+                    return result.toString();
                 }
             }
+            result.append(strs[0].charAt(i));
         }
-
-        StringBuilder result = new StringBuilder();
-        for (ArrayList<String> arr : m) {
-            if (Integer.parseInt(arr.get(1)) == strs.length) {
-                result.append(arr.get(0));
-            }
-        }
-
         return result.toString();
     }
 }
