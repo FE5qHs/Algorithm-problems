@@ -7,7 +7,7 @@
  * }
  */
 class Solution {
-    public ListNode swapPairs(ListNode head) {
+    public ListNode swapPairs1(ListNode head) {
         if (null == head || null == head.next) return head;
         ListNode res = head.next, h = null, p = head, q = p.next;
         while (null != q) {
@@ -20,5 +20,13 @@ class Solution {
             q = p.next;
         }
         return res;
+    }
+    // recursive solution
+    public ListNode swapPairs2(ListNode head) {
+        if (null == head || null == head.next) return head;
+        ListNode temp = head.next;
+        head.next = swapPairs(temp.next);
+        temp.next = head;
+        return temp;
     }
 }
