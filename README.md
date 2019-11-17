@@ -1,1 +1,1 @@
-Stores part of algorithmic problems i solved.
+Stores part of algorithm problems I solved.
