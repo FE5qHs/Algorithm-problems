@@ -1,1 +1,0 @@
-[Minesweeper](https://leetcode.com/problems/minesweeper/)
