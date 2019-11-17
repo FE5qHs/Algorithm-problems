@@ -1,1 +1,1 @@
-[Leetcode](https://leetcode.com/problemset/all/).
+[Leetcode](https://leetcode.com/problemset/all/)
