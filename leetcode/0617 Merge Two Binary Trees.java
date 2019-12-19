@@ -37,4 +37,17 @@ class Solution {
             return res;
         }
     }
+
+    public TreeNode mergeTrees2(TreeNode t1, TreeNode t2) {
+        if (null == t1 && null != t2) {
+            t1 = new TreeNode(t2.val);
+            t1.left = mergeTrees(t1.left, t2.left);
+            t1.right = mergeTrees(t1.right, t2.right);
+        } else if (null != t1 && null != t2) {
+            t1.val += t2.val;
+            t1.left = mergeTrees(t1.left, t2.left);
+            t1.right = mergeTrees(t1.right, t2.right);
+        }
+        return t1;
+    }
 }
