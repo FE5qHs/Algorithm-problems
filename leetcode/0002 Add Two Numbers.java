@@ -39,4 +39,22 @@ class Solution {
 
         return res;
     }
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        ListNode dum = new ListNode(0);
+        ListNode res = dum;
+        int carry = 0;
+        while (null != l1 || null != l2) {
+            int l1Val = null == l1 ? 0 : l1.val;
+            int l2Val = null == l2 ? 0 : l2.val;
+            int val = l1Val + l2Val + carry;
+            carry = val / 10;
+            dum.next = new ListNode(val % 10);
+            dum = dum.next;
+            if (null != l1) l1 = l1.next;
+            if (null != l2) l2 = l2.next;
+        }
+        if (1 == carry) dum.next = new ListNode(1);
+        return res.next;
+    }
 }
