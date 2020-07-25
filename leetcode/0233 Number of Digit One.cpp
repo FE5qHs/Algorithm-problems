@@ -3,14 +3,14 @@ public:
     int countDigitOne(int n) {
         if (n < 0) return 0;
         
-        vector<unsigned long long> digits;
+        vector<int> digits;
         while (n != 0) {
             digits.push_back(n % 10);
             n /= 10;
         }
-        unsigned long long digitOnes[digits.size()];
+        int digitOnes[digits.size()];
 
-        vector<unsigned long long> totalOnes = {2, 12, 13, 14, 15, 15, 17, 18, 19, 21};
+        vector<int> totalOnes = {2, 12, 13, 14, 15, 15, 17, 18, 19, 21};
         if (digits.size() >= 1) {
             if (digits[0] >= 1) digitOnes[0] = 1;
             else digitOnes[0] = 0;
