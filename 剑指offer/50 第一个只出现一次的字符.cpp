@@ -15,7 +15,7 @@ public:
     }
 };
 
-// solution1
+// solution2
 // time complexity O(n)
 // space complexity O(n)
 class Solution {
@@ -37,6 +37,37 @@ public:
             if (it.second != 0 && it.second < minOrder) {
                 res = it.first;
                 minOrder = it.second;
+            }
+        }
+        return res;
+    }
+};
+
+// solution3
+// time complexity O(n)
+// space complexity O(m)
+class Solution {
+public:
+    char firstUniqChar(string s) {
+        int dict[26];
+        for (int i = 0; i < 26; ++i) dict[i] = -1;
+        
+        int order = 0;
+        for (char c : s) {
+            int idx = c - 'a';
+            if (dict[idx] == -1) {
+                dict[idx] = ++order;
+            } else {
+                dict[idx] = 0;
+            }
+        }
+        
+        char res = ' ';
+        int minOrder = 50001;
+        for (int i = 0; i < 26; ++i) {
+            if (dict[i] > 0 && dict[i] < minOrder) {
+                res = 'a' + i;
+                minOrder = dict[i];
             }
         }
         return res;
