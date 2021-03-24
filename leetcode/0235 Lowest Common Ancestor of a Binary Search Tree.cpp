@@ -65,3 +65,31 @@ public:
         return sum;
     }
 };
+
+// solution3
+// time complexity O(n)
+// space complexity O(n)
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == nullptr) return nullptr;
+        
+        TreeNode* smallerNode;
+        TreeNode* greaterNode;
+        if (p->val > q->val) {
+            smallerNode = q;
+            greaterNode = p;
+        } else {
+            smallerNode = p;
+            greaterNode = q;
+        }
+        
+        if (root->val < smallerNode->val) {
+            return lowestCommonAncestor(root->right, p, q);
+        } else if (smallerNode->val <= root->val && root->val <= greaterNode->val) {
+            return root;
+        } else {
+            return lowestCommonAncestor(root->left, p, q);
+        }
+    }
+};
