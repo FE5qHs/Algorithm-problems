@@ -93,3 +93,32 @@ public:
         }
     }
 };
+
+// solution4
+// time complexity O(n)
+// space complexity O(n)
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == nullptr) return nullptr;
+
+        TreeNode* res = nullptr;
+
+        stack<TreeNode*> s;
+        s.push(root);
+        while (!s.empty()) {
+            TreeNode* temp = s.top();
+            s.pop();
+
+            if (temp->val < p->val && temp->val < q->val && temp->right != nullptr) {
+                s.push(temp->right);
+            } else if (temp->val > p->val && temp->val > q->val && temp->left != nullptr) {
+                s.push(temp->left);
+            } else {
+                res = temp;
+            }
+        }
+        
+        return res;
+    }
+};
