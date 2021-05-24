@@ -96,7 +96,7 @@ public:
 
 // solution4
 // time complexity O(n)
-// space complexity O(n)
+// space complexity O(1)
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
